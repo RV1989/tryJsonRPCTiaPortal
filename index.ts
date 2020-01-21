@@ -67,6 +67,11 @@ const main = async () => {
   let _headers = {
     'X-Auth-Token': token,
 
+
+    //siemens_automation_language=de nederlands
+    //siemens_automation_language=fr frans
+    //siemens_automation_language=en engels
+
     Cookie: 'siemens_automation_language=en; siemens_ad_session=UA8tqanox0mC9Tvaj8+XHltExbzDcvUCSxnQuSsJjYzDoX/TAQABAA==; siemens_ad_secure_session=HrhqZesCNv0Ov0x6+T2sQ9RXD8OwNKoJoY0It7rd5V3DoX/TAQABAA==',
     Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
   }
